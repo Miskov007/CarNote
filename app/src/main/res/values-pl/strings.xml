@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car Note</string>
+    <string name="date">Data</string>
+    <string name="mileage">Przebieg</string>
+    <string name="added_liters">Litry dolane</string>
+    <string name="tank_cost">Koszt tankowania</string>
+    <string name="confirm">Zatwierdź</string>
+    <string name="go_to_tank_form_button">Przejdź do tankowania</string>
+    <string name="make">Marka</string>
+    <string name="model">Model</string>
+    <string name="color">Kolor</string>
+    <string name="make_demo">VolksWagen</string>
+    <string name="model_demo">Golf 5</string>
+    <string name="color_demo">Szary</string>
+    <string name="new_repair">Nowa \nnaprawa</string>
+    <string name="new_collision">Nowa \nkolizja</string>
+    <string name="new_tankup">Dolej \npaliwa</string>
+    <string name="new_car">Nowe \nauto</string>
+    <string name="liter_validation_notempty_message">Podaj ilosć dolanych litrów"</string>
+    <string name="liter_validation_positive_message">Dolane litry musza być wartością dodatnią</string>
+    <string name="cost_validation_notempty_message">Podaj koszt</string>
+    <string name="cost_validation_positive_message">Podawaj zawsze dodatnią wartosć tankowania</string>
+    <string name="mileage_validation_notempty_message">Podaj przebieg</string>
+    <string name="mileage_validation_positive_message">Podaj wartość dodatnią przebiegu</string>
+    <string name="mileage_validation_notlesser_message">Wprowadzony przebieg jest równy lub mniejszy od wartości podanej w poprzendim tankowaniu, nie ma takiego cofania licznika!</string>
+    <string name="is_this_master_car">Czy to Twoje główne auto?</string>
+</resources>

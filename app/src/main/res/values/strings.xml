@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Car Note</string>
+    <string name="date">Data</string>
+    <string name="mileage">Mileage</string>
+    <string name="added_liters">Liters added</string>
+    <string name="tank_cost">Tank cost</string>
+    <string name="confirm">Confirm</string>
+    <string name="go_to_tank_form_button">TankUP</string>
+    <string name="make">Make</string>
+    <string name="model">Model</string>
+    <string name="color">Color</string>
+    <string name="make_demo">VolksWagen</string>
+    <string name="model_demo">Golf 5</string>
+    <string name="color_demo">Grey</string>
+    <string name="new_repair">Repair</string>
+    <string name="new_collision">Collision</string>
+    <string name="new_tankup">Tankup</string>
+    <string name="new_car">New Car</string>
+    <string name="liter_validation_notempty_message">Liters must be given</string>
+    <string name="liter_validation_positive_message">Liters must be positive</string>
+    <string name="cost_validation_notempty_message">Cost must be given</string>
+    <string name="cost_validation_positive_message">Cost must be positive</string>
+    <string name="mileage_validation_notempty_message">Mileage must be given</string>
+    <string name="mileage_validation_positive_message">Mileage must be positive</string>
+    <string name="mileage_validation_notlesser_message">Mileage is lesser than last time</string>
+    <string name="is_this_master_car">Is that car your common car?</string>
+
+</resources>

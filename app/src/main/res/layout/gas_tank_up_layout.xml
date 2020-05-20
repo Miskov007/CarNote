@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/greyColor">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/date_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        style="@style/LabelTextViewStyle"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:longClickable="false"
+        android:focusable="false"
+        android:inputType="date"
+        style="@style/CommonEditTextStyle"/>
+
+    <TextView
+        android:id="@+id/mileage_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mileage" />
+
+    <EditText
+        android:id="@+id/mileage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        style="@style/CommonEditTextStyle"/>
+
+    <TextView
+        android:id="@+id/liters_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/added_liters" />
+
+    <EditText
+        android:id="@+id/liters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        style="@style/CommonEditTextStyle"/>
+
+    <TextView
+        android:id="@+id/cost_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tank_cost" />
+
+    <EditText
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        style="@style/CommonEditTextStyle"/>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        style="CommonButton"
+
+        android:layout_height="wrap_content"
+        android:text="@string/confirm" />
+</LinearLayout>
+</LinearLayout>
